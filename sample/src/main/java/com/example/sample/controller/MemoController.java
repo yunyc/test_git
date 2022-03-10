@@ -24,17 +24,24 @@ public class MemoController {
 	@Inject
 	private MemoDAO memoDao;
 	
+	// 추가
+	@Inject
+	private MemoDAO memoDao1;
+	
+	@Inject
+	private MemoDAO memoDao2;
+	
 	// 추가2
-	private int a;
-	
-	private int b;
-	
-	private int c;
-	
-	private int c2;
-	
-	private int c3;
-	
+		private int a;
+		
+		private int b;
+		
+		private int c;
+		
+		private int c2;
+		
+		private int c3;
+
 
 	// url pattern 연결 어노테이션
 	@RequestMapping("/memo.do")
