@@ -29,6 +29,12 @@ public class MemoController {
 	
 	private int b;
 	
+	private int c;
+	
+	private int c2;
+	
+	private int c3;
+	
 
 	// url pattern 연결 어노테이션
 	@RequestMapping("/memo.do")
